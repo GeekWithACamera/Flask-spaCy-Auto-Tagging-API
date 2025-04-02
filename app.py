@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import spacy
 
 # Load spaCy NLP model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
 
 app = Flask(__name__)
 
